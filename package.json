@@ -18,7 +18,9 @@
     "sqlresettest": "NODE_ENV=test npm run sqldrop && NODE_ENV=test npm run sqlinit",
     "starttest": "NODE_ENV=test node index.js",
     "_e2e": "NODE_ENV=test node test/e2e/index.js",
-    "e2e": "npm run sqlresettest && npm run _e2e"
+    "e2e": "npm run sqlresettest && npm run _e2e",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -118,6 +120,8 @@
     "smtp-server": "^3.1.0",
     "striptags": "^3.1.0",
     "toml": "^2.3.3",
-    "try-require": "^1.2.1"
-  }
+    "try-require": "^1.2.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
