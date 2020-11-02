@@ -78,7 +78,7 @@
     "handlebars": "^4.0.10",
     "hbs": "^4.0.1",
     "he": "^1.1.1",
-    "html-to-text": "^3.3.0",
+    "html-to-text": "^6.0.0",
     "humanize": "0.0.9",
     "is-url": "^1.2.2",
     "isemail": "^2.2.1",
