@@ -103,7 +103,7 @@
     "nodemailer-openpgp": "^1.1.0",
     "npmlog": "^4.1.2",
     "object-hash": "^1.1.8",
-    "openpgp": "^2.5.11",
+    "openpgp": "^5.0.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-ldapauth": "^2.0.0",
